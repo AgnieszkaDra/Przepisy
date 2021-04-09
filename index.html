@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,31 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/content.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
     
 </head>
 <body>
-    <nav>
-        <div class="nav">
-            <ol>
-                <li><a href="#">Regiony</a>
-                    <ul>
-                        <li><a href="#">KASZUBY POMORZE</a></li>
-                        <li><a href="#">PODLASIE</a></li>
-                        <li><a href="#">WARMIA i MAZURY</a></li>
-                        <li><a href="#">KUJAWY</a></li>
-                        <li><a href="#">WIELKOPOLSKA</a></li>
-                        <li><a href="#">GALICJA</a></li>
-                        <li><a href="#">MAZOWSZE KURPIE</a></li>
-                        <li><a href="#">ŚLĄSK</a></li>
-                        <li><a href="#">KRESY</a></li>
-                        <li><a href="#">GÓRY</a></li>
+    <header class="header row">
+        <div class="header__container container">
+            <h1 class="header__logo cell">Logo</h1>
+            <nav class="header__nav cell"> 
+            <ol class="nav">
+                <li class="nav__item nav__item--no-space"><a href="#">Regiony</a>
+                    <ul class="nav__dropdown">
+                        <li class="dropdown__item"><a href="#">KASZUBY POMORZE</a></li>
+                        <li class="dropdown__item"><a href="#">PODLASIE</a></li>
+                        <li class="dropdown__item"><a href="#">WARMIA i MAZURY</a></li>
+                        <li class="dropdown__item"><a href="#">KUJAWY</a></li>
+                        <li class="dropdown__item"><a href="#">WIELKOPOLSKA</a></li>
+                        <li class="dropdown__item"><a href="#">GALICJA</a></li>
+                        <li class="dropdown__item"><a href="#">MAZOWSZE KURPIE</a></li>
+                        <li class="dropdown__item"><a href="#">ŚLĄSK</a></li>
+                        <li class="dropdown__item"><a href="#">KRESY</a></li>
+                        <li class="dropdown__item"><a href="#">GÓRY</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Produkty</a></li>
-                <li class="coming-soon"><a href="#">Usługi</a></li> <!--nie wyświetlone na stronie-display:none-->
-                <li><a href="#">O nas</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li class="nav__item"><a href="#">Produkty</a></li>
+                <li class="nav__item"><a href="#">Usługi</a></li> <!--nie wyświetlone na stronie-display:none-->
+                <li class="nav__item"><a href="#">O nas</a></li>
+                <li class="nav__item"><a href="#">Kontakt</a></li>
             </ol>
 
          </div>       
